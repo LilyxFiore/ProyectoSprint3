@@ -137,6 +137,7 @@ input:focus{
   background: linear-gradient(#76278f, #2b1e66);
   color: white;
   padding: 40px;
+  padding-left: 80px;
 }
 
 .left{

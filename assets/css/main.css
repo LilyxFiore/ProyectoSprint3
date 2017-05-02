@@ -166,11 +166,23 @@ input:focus{
 .info{
   box-sizing: border-box;
   float: left;
-  width: 40%;
+  width: 30%;
   padding: 40px;
 }
+
 .video{
   float:right;
-  width: 60%;
+  width: 70%;
   height: 500px;
+}
+
+.info-right{
+  float:right;
+}
+
+.video-left{
+  float: left;
+}
+.watch{
+  font-size: 12px;
 }

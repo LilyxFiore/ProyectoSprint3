@@ -97,7 +97,7 @@ header{
 }
 
 input{
-  width: 100%;
+  width: 90%;
   border: 0;
   border-bottom: 1px solid #728099;
   margin-bottom: 30px;
@@ -105,6 +105,13 @@ input{
 
 input:focus{
   outline: none;
+}
+
+.error{
+  position: absolute;
+  width: 20px;
+  display: none;
+  float: right;
 }
 
 .bt-become{

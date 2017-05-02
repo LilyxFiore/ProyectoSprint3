@@ -30,24 +30,22 @@
       <h1 class="title">TURN MILES
       INTO MONEY</h1>
       <h5 class="title">SIGN UP TO DRIVE WITH LYFT</h5>
-      <div class="form">
-        <form action="">
-          <input id="phone" type="text" name="phone" placeholder="Phone number">
-          <div id="register" style="display:none">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="text" placeholder="City" required>
-          </div>
-          <input type="submit" class="bt-become" value="Become a driver">
-          <input type="submit" class="bt-signup" value="Sign up to ride">
-          <p class="register-text">Already apllied? Check the status of your application here.</p>
-          <p class="register-text">Earn money for inviting friends to drive. Lear more</p>
-        </form>
-
-
-      </div>
+      <form action="">
+        <input id="phone" type="text" name="phone" placeholder="Phone number" title="El número celular debe empezar con 9" pattern="[9]{1}[0-9]{8}" required>
+        <div id="register" style="display:none">
+          <input type="text" placeholder="Name" title="Debe empezar con mayúscula" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" required>
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="City" title="Debe empezar con mayúscula" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" required>
+        </div>
+        <input type="submit" class="bt-become" value="Become a driver">
+        <input type="submit" class="bt-signup" value="Sign up to ride">
+        <p class="register-text">Already apllied? Check the status of your application here.</p>
+        <p class="register-text">Earn money for inviting friends to drive. Lear more</p>
+      </form>
     </div>
   </header>
+
+
   <script src="assets/js/nav-change.js"></script>
   <script src="assets/js/register.js"></script>
 </body>
